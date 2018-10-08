@@ -1,5 +1,11 @@
 <?php
-require ("db.php");
+/**
+ * Created by PhpStorm.
+ * User: kachorroski
+ * Date: 08/10/18
+ * Time: 11:06
+ */
+require("db.php");
 session_start();
 if(!isset($_SESSION["nome"]) || !isset($_SESSION["senha"]) ){
     header ("Location: index.php?msg=2");
@@ -58,9 +64,36 @@ if(!isset($_SESSION["nome"]) || !isset($_SESSION["senha"]) ){
     <!-- Page Content -->
     <div id="page-content-wrapper">
         <div class="container-fluid">
-            <h1>Bem Vindo ao Sistema <?php echo $_SESSION['nome'] ?>.</h1>
-            <p>Sistema desenvolvido para gerenciar ferramentas, ferramentas essas usadas no dia a dia do técnico de informatica, tal como softwares, Office, Cracks e etc.</p>
-            <p>O sistema é bem simples, em vez de ficar passando softwares pela rede ou por drive, aqui centralizaremos tudo.</code>.</p>
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Ferramenta</th>
+                    <th scope="col">Tamanho</th>
+                    <th scope="col">Observação</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>OFFICE 2013 W32</td>
+                    <td>740MB</td>
+                    <td>Office Completo Atualizado</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Ativador OFFICE 2013</td>
+                    <td>49MB</td>
+                    <td>Ativador do OFFICE 2013 Atualizado</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Service Pack Windows 7</td>
+                    <td>1,50G</td>
+                    <td>Service Pack para Windows 7 64 e 32.</td>
+                </tr>
+                </tbody>
+            </table>
             <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle" style="background-color: #337ab7">DASHBOARD</a>
         </div>
     </div>

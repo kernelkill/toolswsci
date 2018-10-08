@@ -99,7 +99,7 @@
                 <a href="dashboard.php">Dashboard</a>
             </li>
             <li>
-                <a href="#">Tools</a>
+                <a href="tools.php">Tools</a>
             </li>
             <li>
                 <a href="form_cadusu.php">Cadastro</a>

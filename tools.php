@@ -22,12 +22,16 @@ if(!isset($_SESSION["nome"]) || !isset($_SESSION["senha"]) ){
     <meta name="description" content="">
     <meta name="author" content="Joabe Kachorroski">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-
     <link rel="stylesheet" href="css/simple-sidebar.css">
+    <title>WS-TOOLS</title>
 
-    <title>WSCI - TOOLS</title>
+    <style>
+        body{
+            background-image: url("img/back_1.jpg");
+            background-repeat: no-repeat;
+        }
+    </style>
 
 </head>
 <body>
@@ -39,7 +43,7 @@ if(!isset($_SESSION["nome"]) || !isset($_SESSION["senha"]) ){
         <ul class="sidebar-nav">
             <li class="sidebar-brand">
                 <a href="#">
-                   WSCI  TOOLS
+                   WS  TOOLS
                 </a>
             </li>
             <li>
@@ -71,6 +75,7 @@ if(!isset($_SESSION["nome"]) || !isset($_SESSION["senha"]) ){
                     <th scope="col">Ferramenta</th>
                     <th scope="col">Tamanho</th>
                     <th scope="col">Observação</th>
+                    <th scope="col">Ação</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -79,18 +84,31 @@ if(!isset($_SESSION["nome"]) || !isset($_SESSION["senha"]) ){
                     <td>OFFICE 2013 W32</td>
                     <td>740MB</td>
                     <td>Office Completo Atualizado</td>
+                    <td><button type="button" class="btn btn-outline-success">DOWN</button></td>
                 </tr>
                 <tr>
                     <th scope="row">2</th>
                     <td>Ativador OFFICE 2013</td>
                     <td>49MB</td>
                     <td>Ativador do OFFICE 2013 Atualizado</td>
+                    <td><button type="button" class="btn btn-outline-success">DOWN</button></td>
                 </tr>
                 <tr>
                     <th scope="row">3</th>
                     <td>Service Pack Windows 7</td>
                     <td>1,50G</td>
                     <td>Service Pack para Windows 7 64 e 32.</td>
+                    <div class="btn-group" >
+                        <td><button type="button" class="btn btn-outline-success">DOWN-x32</button>
+                        <button type="button" class="btn btn-outline-success">DOWN-x64</button></td>
+                    </div>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Firefox 51</td>
+                    <td>42MB</td>
+                    <td>Firefox 32bits com suporte a plugins como java e outros plugins.</td>
+                    <td><a href="tools_/FirefoxSetup51.0.exe"><button type="button" class="btn btn-outline-success">DOWN</button></a></td>
                 </tr>
                 </tbody>
             </table>

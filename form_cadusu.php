@@ -61,13 +61,14 @@
     <meta name="description" content="">
     <meta name="author" content="Joabe Kachorroski">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/simple-sidebar.css">
-
-
-    <title>WSCI - CADASTRO</title>
+    <title>WS-TOOLS</title>
     <style>
+        body{
+            background-image: url("img/back_1.jpg");
+            background-repeat: no-repeat;
+        }
         .form-cadusu{
             max-width: 500px;
         }
@@ -92,7 +93,7 @@
         <ul class="sidebar-nav">
             <li class="sidebar-brand">
                 <a href="#">
-                    WSCI TOOLS
+                    WS TOOLS
                 </a>
             </li>
             <li>

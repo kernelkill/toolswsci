@@ -68,6 +68,8 @@
         body{
             background-image: url("img/back_1.jpg");
             background-repeat: no-repeat;
+            background-size: auto;
+            background-attachment: scroll;
         }
         .form-cadusu{
             max-width: 500px;

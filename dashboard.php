@@ -24,6 +24,8 @@ if(!isset($_SESSION["nome"]) || !isset($_SESSION["senha"]) ){
         body{
             background-image: url("img/back_1.jpg");
             background-repeat: no-repeat;
+            background-size: auto;
+            background-attachment: scroll;
         }
     </style>
 </head>

@@ -41,7 +41,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>WS-Login</title>
+	<title>WS-Login</title>S
 	<link rel="stylesheet" href="css/estilo.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -49,7 +49,7 @@
 <body>
 	<div class="container">
 		<form action="autenticar.php" method="post" class="form-login">
-			<h2 class="form-login-heading" style="text-align: center;">Entre com o usuário</h2>
+			<h2 class="form-login-heading" style="text-align: center;">IDENTIFIQUE-SE</h2>
 			<label for="inputNome" class="sr-only">Nome</label>
 			<input type="nome" id="inputNome" name="inputNome" class="form-control" placeholder="Nome" required autofocus>
 			<label for="inputPassword" class="sr-only">Senha</label>
